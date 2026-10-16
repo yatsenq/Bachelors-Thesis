@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets: keep directories, not their contents
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+/data/evidence/*
+!/data/evidence/.gitkeep
+/data/splits/*
+!/data/splits/.gitkeep
+
+# Model weights
+/models/*
+!/models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+runs/
+wandb/
+
+# Temporary files
+tmp/
+temp/
+~$*
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+.git-backup/
