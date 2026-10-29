@@ -1,1 +1,13 @@
-# Add dependencies as components are implemented.
+requests
+beautifulsoup4
+lingua-language-detector
+pandas
+numpy
+scikit-learn
+pymorphy3
+pymorphy3-dicts-uk
+matplotlib
+seaborn
+wordcloud
+tqdm
+ipykernel
